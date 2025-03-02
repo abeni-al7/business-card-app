@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Business Card App</string>
+    <string name="phone_number">+251929341497</string>
+    <string name="name">Abenezer Alebachew Endalew</string>
+    <string name="title">Software Engineer</string>
+    <string name="handle">\@abeni-al7 on Github</string>
+    <string name="email">abenezeralebachew3@gmail.com</string>
 </resources>
