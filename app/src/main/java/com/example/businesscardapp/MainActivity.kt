@@ -88,6 +88,7 @@ fun IntroUI(name: String, title: String) {
         Text(
             text = title,
             fontSize = 20.sp,
+            color = Color(0xFF3ddc84),
             fontWeight = FontWeight.Bold,
             modifier = Modifier.padding(top = 8.dp)
         )
@@ -103,19 +104,34 @@ fun AddressSection(tel: String, handle: String, email: String) {
         Row (
             modifier = Modifier.padding(bottom = 16.dp)
         ){
-            Icon(Icons.Rounded.Call, contentDescription = "Call Icon", modifier = Modifier.padding(end = 8.dp))
+            Icon(
+                Icons.Rounded.Call,
+                tint = Color(0xFF3ddc84),
+                contentDescription = "Call Icon",
+                modifier = Modifier.padding(end = 8.dp)
+            )
             Text(text = tel)
         }
         Row(
             modifier = Modifier.padding(bottom = 16.dp)
         ) {
-            Icon(Icons.Rounded.Share, contentDescription = "Handle Icon", modifier = Modifier.padding(end = 8.dp))
+            Icon(
+                Icons.Rounded.Share,
+                tint = Color(0xFF3ddc84),
+                contentDescription = "Handle Icon",
+                modifier = Modifier.padding(end = 8.dp)
+            )
             Text(text = handle)
         }
         Row(
             modifier = Modifier.padding(bottom = 16.dp)
         ) {
-            Icon(Icons.Rounded.Email, contentDescription = "Email Icon", modifier = Modifier.padding(end = 8.dp))
+            Icon(
+                Icons.Rounded.Email,
+                tint = Color(0xFF3ddc84),
+                contentDescription = "Email Icon",
+                modifier = Modifier.padding(end = 8.dp)
+            )
             Text(text = email)
         }
     }
